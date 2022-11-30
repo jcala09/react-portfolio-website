@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import PICTURE from '../../assets/about_me_image.jpg'
 import {BiMedal} from 'react-icons/bi'
-import Contact from "../contact/Contact"
+
 const About = () => {
   return (
     <section id='about'>
