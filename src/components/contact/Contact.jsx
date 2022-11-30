@@ -8,9 +8,9 @@ const Contact = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
    <>
-   <a className='btn' onClick={() => setIsOpen(true)}>
+   <p href= '#' className='btn' onClick={() => setIsOpen(true)}>
    Contact Information
- </a>
+ </p>
  {isOpen && <Modal setIsOpen={setIsOpen} />}
  </>
   )
