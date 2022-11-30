@@ -9,6 +9,7 @@
     text-decoration: none;
 }
 
+
 :root {
     --color-bg:  #02292e;
     --color-bg-variant: forestgreen;
@@ -29,15 +30,16 @@ html {
 }
 
 ::-webkit-scrollbar{
-    display:none;
+    display:auto;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    background: var(--color-bg);
+    font-family: "Poppins", sans-serif ;
+    background: var(--color-bg) ;
     color:var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
+    overflow: scroll;
 }
 /* general styles */
 .container{
@@ -108,6 +110,7 @@ img{
     display: block;
     width: 100%;
     object-fit:cover;
+    z-index:0;
 }
 
 /* media queries  ( medium devices) */

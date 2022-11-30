@@ -1,6 +1,6 @@
 import React from "react";
 import  "./Modal.css";
-import "./Contact.css";
+
 import {RiCloseLine} from "react-icons/ri";
 
 const Modal = ({setIsOpen}) => {
@@ -22,9 +22,7 @@ const Modal = ({setIsOpen}) => {
           </div>
           <div className="modalActions">
             <div className="actionsContainer">
-              <button className="deleteBtn" onClick={() => setIsOpen(false)}>
-                Close
-              </button>
+              
             </div>
           </div>
         </div>

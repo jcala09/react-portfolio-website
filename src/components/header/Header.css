@@ -12,7 +12,7 @@ header{
 
 /* CTA */
 .cta{
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -42,11 +42,12 @@ header{
     background: linear-gradient(var(--color-primary),transparent);
     width:22rem;
     height:30rem;
-    position:absolute;
+    position:relative;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 20rem 20rem 0 0;
     overflow:hidden;
+    z-index: 0;
     
 }
 
