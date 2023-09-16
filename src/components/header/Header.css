@@ -42,7 +42,7 @@ header{
     background: linear-gradient(var(--color-primary),transparent);
     width:22rem;
     height:30rem;
-    position:relative;
+    position:absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 20rem 20rem 0 0;
