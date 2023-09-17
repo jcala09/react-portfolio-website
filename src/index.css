@@ -128,7 +128,7 @@ img{
 
 /* media queries  ( small devices) */
 
-@media screen and (max-width:600px){
+@media screen and (max-width:480px){
     .container{
         width:var(--container-width-sm);
     }
@@ -137,9 +137,6 @@ img{
         margin-top: 2rem;
     }
 
-    .column{
-        width:100%;
-        float:none;
-    }
+    
     
 }
