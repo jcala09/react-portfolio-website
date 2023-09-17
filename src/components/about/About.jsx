@@ -20,19 +20,19 @@ const About = () => {
           <article className='about__card'>
           <BiMedal className='about__icon'/>
           <h5>Project Experience</h5>
-          <small>3+ years of group and personal projects </small>
+          <small>5+ years of group and personal projects </small>
           </article>
 
           <article className='about__card'>
           <BiMedal className='about__icon'/>
           <h5>Work Experience</h5>
-          <small>5+ years of working with clients and customers</small>
+          <small>1+ years of Software Engineering</small>
           </article>
 
           <article className='about__card'>
           <BiMedal className='about__icon'/>
           <h5>Social Experience</h5>
-          <small>I talk with homies a lot hehe </small>
+          <small>Work very well in AGILE and group based environment </small>
           </article>
 
           
