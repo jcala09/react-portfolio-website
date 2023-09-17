@@ -139,6 +139,7 @@ img{
 
     .column{
         width:100%;
+        float:none;
     }
     
 }
