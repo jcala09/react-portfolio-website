@@ -47,7 +47,7 @@ const Experience = () => {
         <div className= "experience__content">
 
           <article className='experience__details'>
-          <BsPatchCheckFill /><h4>Python</h4>
+          <BsPatchCheckFill /><h4>Bash</h4>
           <small className='text-light'>Novice</small>
           </article>
 
@@ -67,7 +67,7 @@ const Experience = () => {
           </article>
 
           <article className='experience__details'>
-          <BsPatchCheckFill /><h4>ExpressJS</h4>
+          <BsPatchCheckFill /><h4>Ansible</h4>
           <small className='text-light'>Novice</small>
           </article>
         </div>
