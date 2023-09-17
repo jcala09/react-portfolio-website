@@ -136,5 +136,9 @@ img{
     section > h2{
         margin-top: 2rem;
     }
+
+    .column{
+        width:100%;
+    }
     
 }
