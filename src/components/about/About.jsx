@@ -43,7 +43,7 @@ const About = () => {
 
         </div>
         <div>
-        <p className= 'summary'>
+        <div className= 'summary'>
           My name is Jerome Gabriel Cala, and I recently graduated with a B.S. for Comptuer Science in Texas Tech University. I am born from the 
           Philippines, and I moved here in the United States in the year of 2013. I have chosen Computer Science to be my major because I have 
           always had a passion for computers, especially how video games and websites were made. I now work as an Associate Software Engineer 
@@ -51,7 +51,7 @@ const About = () => {
           In my years as a Computer Science student, I have worked on projects such as a Public Transit Application through Object Oriented 
           Programming, games such as space invaders and turtle racing. I am currently working with Luis Garcia and Gabe Guzman to create our own
           Gym Clothing line called HNGR. More details will be released soon.
-        </p> 
+        </div> 
         </div>
         
         </div>
