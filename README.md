@@ -17,4 +17,7 @@ So I have done a manual deploy on this website when it was originally made befor
 working on this project again and I wanted to do a github deploy because that would help me constantly update
 this website without worrying about having to manually deploy it everytime. Howvever, the issue with that was
 that netlify (the website im using to deploy) is that it treats warnings as errors, so I had to repeatedly fix 
-the warnings one by one.
+the warnings one by one. 
+
+Update#2:
+Github deployation works now.
