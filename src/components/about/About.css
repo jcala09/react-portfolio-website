@@ -3,7 +3,7 @@
     display:grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-
+    justify-content: center;
 }
 
 .about__header{
@@ -25,6 +25,8 @@
     overflow:hidden;
     transform: rotate(10deg);
     transition:var(--transition);
+    border: 50px;
+    margin-bottom: 30px;
 }
 
 .about__me-pic:hover{
@@ -35,6 +37,7 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:1.5rem;
+    
 }
 
 .about__card
@@ -91,6 +94,7 @@
 
     .about__content p{
         margin:1rem 0rem 1.5rem;
+        justify-content: center;
     }
 }
 
@@ -102,6 +106,7 @@
         grid-template-columns: 1fr;
         gap:0;
         width:50%;
+        justify-content: center;
     }
 
     .about__me{
@@ -118,7 +123,9 @@
     .about__content{
         text-align: center;
         width:50%;
+        justify-content: center;
     }
+
     .about__content p{
         margin:1.5rem 0;
         width:50%;
