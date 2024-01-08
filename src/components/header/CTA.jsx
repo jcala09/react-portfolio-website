@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/Resume.pdf'
 import Contact from '../contact/Contact.jsx'
 import '../contact/Contact.css'
 const CTA = () => {
