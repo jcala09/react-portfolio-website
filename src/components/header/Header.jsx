@@ -13,9 +13,8 @@ const Header = () => {
         <h6 className= "text-light">L3Harris</h6>
         <CTA />
         <HeaderSocials/>
-        <div className="me">
-          <img src={ME} alt='me'/>
-          </div>
+        
+        
       </div>
     </header>
       
