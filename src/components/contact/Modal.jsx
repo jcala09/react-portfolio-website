@@ -16,7 +16,7 @@ const Modal = ({setIsOpen}) => {
             <RiCloseLine  />
           </button>
           <div className="modalContent">
-              <p>Email: b.cala@ttu.edu</p>
+              <p>Email: jeromecala93@gmail.com</p>
               <p>Phone: 432-755-6911</p>
               
           </div>

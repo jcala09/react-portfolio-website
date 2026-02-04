@@ -7,12 +7,12 @@ import './Modal.css'
 const Contact = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-   <>
+    <>
    <p href= '#' className='btn' onClick={() => setIsOpen(true)}>
-   Contact Information
+        Contact Information
  </p>
- {isOpen && <Modal setIsOpen={setIsOpen} />}
- </>
+      {isOpen && <Modal setIsOpen={setIsOpen} />}
+    </>
   )
 }
 
