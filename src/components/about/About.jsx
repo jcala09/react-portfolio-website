@@ -28,14 +28,14 @@ const About = () => {
 
             <article className='about__card'>
             <BiMedal className='about__icon'/>
-            <h5>Project Experience</h5>
-            <small>5+ years of group and personal projects </small>
+            <h5>Work Experience</h5>
+            <small>2.5+ years of Full Stack Development</small>
             </article>
 
             <article className='about__card'>
             <BiMedal className='about__icon'/>
-            <h5>Work Experience</h5>
-            <small>1+ years of Software Engineering</small>
+            <h5>Project Experience</h5>
+            <small>5+ years of group and personal projects </small>
             </article>
 
             <article className='about__card'>
@@ -46,19 +46,9 @@ const About = () => {
           
           </div>
 
-        <div>
-
-        
-
         </div>
-        
-        </div>
-        
       </div>
-      
-    
     </section>
-    
   )
 }
 
