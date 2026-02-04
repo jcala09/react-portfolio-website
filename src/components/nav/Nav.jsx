@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <nav>
       <a 
-        href="#" 
+        href="#Homepage" 
         onClick={() => setActiveNav('#')} 
         className={activeNav === '#' ? 'active' : ''}
       >
