@@ -16,16 +16,16 @@ const Portfolio = () => {
       image: IMG1,
       title: 'JeromeFolio - Portfolio Website',
       description: 'A modern, responsive portfolio website built with React showcasing my work, experience, and skills. Features smooth scrolling, interactive components, and a clean design.',
-      github: 'https://github.com',
-      demo: 'https://jeromefolio.com'
+      github: 'https://github.com/jcala09/react-portfolio-website',
+      demo: 'https://jeromefolio.netlify.app'
     },
     {
       id: 2,
       image: IMG2,
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with user authentication, product management, shopping cart, and payment integration.',
-      github: 'https://github.com',
-      demo: 'https://demo.com'
+      title: 'JeromEssentials - Everyday needs',
+      description: 'A self personalized website to store any important information for me such as a shopping list, reminders, etc.',
+      github: 'https://github.com/jcala09/JeromEssentials',
+      demo: 'https://jeromessentials.netlify.app/'
     },
     {
       id: 3,

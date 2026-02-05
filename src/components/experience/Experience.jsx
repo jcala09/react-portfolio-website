@@ -25,7 +25,7 @@ const Experience = () => {
 
           <article className='experience__details'>
           <BsPatchCheckFill /><h4>JavaScript</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Expert</small>
           </article>
 
           <article className='experience__details'>
@@ -34,8 +34,8 @@ const Experience = () => {
           </article>
 
           <article className='experience__details'>
-          <BsPatchCheckFill /><h4>Angular</h4>
-          <small className='text-light'>Novice</small>
+          <BsPatchCheckFill /><h4>Vue</h4>
+          <small className='text-light'>Expert</small>
           </article>
         </div>
       </div>
@@ -52,12 +52,12 @@ const Experience = () => {
 
           <article className='experience__details'>
           <BsPatchCheckFill /><h4>Java</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Expert</small>
           </article>
 
           <article className='experience__details'>
           <BsPatchCheckFill /><h4>C,C++</h4>
-          <small className='text-light'>Experienced</small>
+          <small className='text-light'>Intermediate</small>
           </article>
 
           <article className='experience__details'>
