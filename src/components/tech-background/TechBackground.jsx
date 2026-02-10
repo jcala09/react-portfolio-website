@@ -34,7 +34,9 @@ function TechBackground() {
 
     const initParticles = (w, h) => {
       particles = []
-      for (let i = 0; i < PARTICLE_COUNT; i++) {
+      const isMobile = w < 768
+      const count = isMobile ? Math.min(40, PARTICLE_COUNT) : PARTICLE_COUNT
+      for (let i = 0; i < count; i++) {
         particles.push({
           x: Math.random() * w,
           y: Math.random() * h,
