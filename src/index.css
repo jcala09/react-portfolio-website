@@ -34,12 +34,12 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif ;
-    background: var(--color-bg) ;
-    color:var(--color-white);
+    font-family: "Poppins", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 /* general styles */
 .container{
@@ -128,15 +128,16 @@ img{
 
 /* media queries  ( small devices) */
 
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px){
     .container{
-        width:var(--container-width-sm);
+        width: var(--container-width-sm);
     }
 
     section{
-        margin-top: 12rem;
+        margin-top: 10rem;
     }
 
-    
-    
+    h1{
+        font-size: 1.75rem;
+    }
 }

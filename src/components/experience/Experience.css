@@ -24,3 +24,21 @@
     margin-bottom: 2rem;
     color:var(--color-primary);
 }
+
+/* Stack on tablets and phones */
+@media screen and (max-width: 1024px) {
+    .container__experience {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container__experience {
+        gap: 1rem;
+    }
+
+    .container__experience > div {
+        padding: 1.5rem;
+    }
+}

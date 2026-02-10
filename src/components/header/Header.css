@@ -76,12 +76,27 @@ header{
 /* media queries  ( sm devices) */
 
 @media screen and (max-width: 600px){
-
     header{
         height: 100vh;
+        padding-top: 5rem;
     }
-    .header__socials, .scroll__down
-    {
-        display:none;
+
+    .me{
+        width: 18rem;
+        height: 24rem;
+        left: calc(50% - 9rem);
+        margin-top: 2rem;
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .me{
+        width: 14rem;
+        height: 19rem;
+        left: calc(50% - 7rem);
     }
 }
