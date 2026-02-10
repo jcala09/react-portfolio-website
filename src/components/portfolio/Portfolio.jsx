@@ -23,7 +23,7 @@ const Portfolio = () => {
       id: 2,
       image: IMG2,
       title: 'JeromEssentials - Everyday needs',
-      description: 'A self personalized website to store any important information for me such as a shopping list.',
+      description: 'A self personalized website to store any important information for me such as a shopping list. This is using AWS, Lambda, and DynamoDB.',
       github: 'https://github.com/jcala09/JeromEssentials',
       demo: 'https://jeromessentials.netlify.app/'
     },
