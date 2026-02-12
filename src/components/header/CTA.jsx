@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/Jerome_Cala_Resume.docx'
+import CV from '../../assets/JeromeCala_Resume.docx'
 import Contact from '../contact/Contact.jsx'
 import '../contact/Contact.css'
 import ME from '../../assets/gradpic.png'
