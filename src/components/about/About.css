@@ -1,3 +1,6 @@
+#about {
+    margin-top: 20rem; /* less space between About and Experience */
+}
 .about__container
 {
     display:grid;

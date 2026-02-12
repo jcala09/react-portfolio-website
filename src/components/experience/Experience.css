@@ -1,3 +1,7 @@
+#experience {
+    margin-top: 0rem; /* less space between About and Experience */
+}
+
 .container__experience{
     display:grid;
     grid-template-columns: 1fr 1fr;
