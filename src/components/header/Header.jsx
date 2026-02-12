@@ -5,16 +5,16 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
-    <header>
+    <section id="header">
       <div className="container header__container">
-        <h5>Welcome to</h5>
+        <h4>Welcome to</h4>
         <h1>Jerome's Hub</h1>
-        <h5 className="text-light">Senior Associate Software Engineer</h5>
-        <h6 className="text-light">L3Harris</h6>
+        <h3 className="text-light">Senior Associate Software Engineer</h3>
+        <h5 className="text-light">L3Harris</h5>
         <CTA />
         <HeaderSocials />
       </div>
-    </header>
+    </section>
   )
 }
 

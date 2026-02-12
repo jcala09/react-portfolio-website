@@ -2,7 +2,7 @@ import React from 'react'
 import './Nav.css'
 import {IoHomeOutline} from 'react-icons/io5'
 import {BiUserCircle} from 'react-icons/bi'
-import {FaRegNewspaper} from 'react-icons/fa'
+import {FaDatabase, FaRegNewspaper} from 'react-icons/fa'
 
 import { useState } from 'react'
 const Nav = () => {
@@ -10,9 +10,9 @@ const Nav = () => {
   return (
     <nav>
       <a 
-        href="#Homepage" 
-        onClick={() => setActiveNav('#')} 
-        className={activeNav === '#' ? 'active' : ''}
+        href="#header" 
+        onClick={() => setActiveNav('#header')} 
+        className={activeNav === '#header' ? 'active' : ''}
       >
         <IoHomeOutline />
       </a>
@@ -29,6 +29,13 @@ const Nav = () => {
         className={activeNav === '#experience' ? 'active' : ''}
       >
         <FaRegNewspaper />
+      </a>
+      <a 
+        href="#portfolio" 
+        onClick={() => setActiveNav('#portfolio')} 
+        className={activeNav === '#portfolio' ? 'active' : ''}
+      >
+        <FaDatabase />
       </a>
     </nav>
   )
