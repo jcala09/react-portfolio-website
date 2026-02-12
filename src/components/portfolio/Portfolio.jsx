@@ -30,10 +30,10 @@ const Portfolio = () => {
     {
       id: 3,
       image: IMG3,
-      title: 'Task Management App',
-      description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      github: 'https://github.com',
-      demo: 'https://demo.com'
+      title: 'Jerome\'s Java',
+      description: 'COMING SOON. A future website to be used when I build my coffee shop.',
+      github: 'https://github.com/jcala09/jerome-s-java',
+      demo: 'https://jeromejava.netlify.app/'
     },
     {
       id: 4,
